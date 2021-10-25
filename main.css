@@ -1,4 +1,23 @@
 body{
-	background-color: lightblue;
-	text-align: center;
+  background-color:lightgreen;
+}
+h1{
+  font-family: Monospace;
+  font-size: 54px;
+}
+h2{
+  font-family:Verdana;
+  font-size: 36px;
+}
+p{
+  border: solid 1pt;
+  font-size: 26px;
+  font-family: Monospace; 
+}
+h3{
+  font-size: 36px;
+  font-family: Verdana;
+}
+img{
+  border: dotted 4pt darkgreen; 
 }

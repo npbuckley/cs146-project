@@ -48,9 +48,9 @@ a:hover, a:visited, a:link, a:active{
   border: solid 1pt;
 }
 
-#title > img{
+#title > a > img{
   float: left;
-  width: 100px;
+  width: 85;
 }
 #title > h1{
   text-align: left;

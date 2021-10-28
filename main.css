@@ -22,3 +22,31 @@ h3{
 img{
   border: dotted 4pt darkgreen; 
 }
+nav{
+  font-size: 20px;
+  margin: 20px;
+}
+nav > *{
+  margin: 5px;
+  background-color: white;
+  padding: 5px;
+  border: solid 2pt;
+}
+
+a:hover, a:visited, a:link, a:active{
+    color: blue;
+    text-decoration: none;
+}
+
+#board{
+  border: solid 1pt;
+}
+
+#title > img{
+  float: left;
+  width: 100px;
+}
+#title > h1{
+  text-align: left;
+  margin-left: 125px;
+}

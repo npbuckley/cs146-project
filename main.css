@@ -10,6 +10,11 @@ h2{
   font-family:Verdana;
   font-size: 36px;
 }
+
+li, ol {
+    list-style-position:inside;
+}
+
 p{
   font-size: 26px;
   font-family: Monospace; 

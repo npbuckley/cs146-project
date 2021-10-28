@@ -1,6 +1,8 @@
 body{
   background-color:lightgreen;
   text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 h1{
   font-family: Monospace;
@@ -26,7 +28,7 @@ h3{
 img{
   border: dotted 4pt darkgreen; 
 }
-<<<<<<< HEAD
+
 nav{
   font-size: 20px;
   margin: 20px;
@@ -39,9 +41,18 @@ nav > *{
   font-size: 20px;
 }
 
-a:hover, a:visited, a:link, a:active{
+a:visited, a:link, a:active{
     color: blue;
     text-decoration: none;
+}
+a:hover{
+  background-color: yellow;
+
+}
+
+section > img{
+  width: 25%;
+  margin: 5px;
 }
 
 #board{
@@ -55,4 +66,12 @@ a:hover, a:visited, a:link, a:active{
 #title > h1{
   text-align: left;
   margin-left: 125px;
+}
+#item{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 5px;
+  
 }

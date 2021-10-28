@@ -1,6 +1,5 @@
 body{
   background-color:lightgreen;
-  text-align: center;
 }
 h1{
   font-family: Monospace;
@@ -11,7 +10,6 @@ h2{
   font-size: 36px;
 }
 p{
-  border: solid 1pt;
   font-size: 26px;
   font-family: Monospace; 
 }
@@ -22,6 +20,7 @@ h3{
 img{
   border: dotted 4pt darkgreen; 
 }
+<<<<<<< HEAD
 nav{
   font-size: 20px;
   margin: 20px;
@@ -50,3 +49,5 @@ a:hover, a:visited, a:link, a:active{
   text-align: left;
   margin-left: 125px;
 }
+=======
+>>>>>>> 03a4231af89156e5da14f11cc666cae94d09550a

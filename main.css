@@ -36,6 +36,7 @@ nav > *{
   background-color: white;
   padding: 5px;
   border: solid 2pt;
+  font-size: 20px;
 }
 
 a:hover, a:visited, a:link, a:active{

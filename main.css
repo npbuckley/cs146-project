@@ -1,5 +1,6 @@
 body{
   background-color:lightgreen;
+  text-align: center;
 }
 h1{
   font-family: Monospace;
@@ -49,5 +50,3 @@ a:hover, a:visited, a:link, a:active{
   text-align: left;
   margin-left: 125px;
 }
-=======
->>>>>>> 03a4231af89156e5da14f11cc666cae94d09550a

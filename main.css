@@ -50,7 +50,7 @@ a:hover, a:visited, a:link, a:active{
 
 #title > a > img{
   float: left;
-  width: 85;
+  width: 85px;
 }
 #title > h1{
   text-align: left;

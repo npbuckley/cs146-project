@@ -1,8 +1,6 @@
 body{
   background-color:lightgreen;
   text-align: center;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 h1{
   font-family: Monospace;
@@ -28,7 +26,7 @@ h3{
 img{
   border: dotted 4pt darkgreen; 
 }
-
+<<<<<<< HEAD
 nav{
   font-size: 20px;
   margin: 20px;
@@ -38,40 +36,62 @@ nav > *{
   background-color: white;
   padding: 5px;
   border: solid 2pt;
-  font-size: 20px;
 }
 
-a:visited, a:link, a:active{
+a:hover, a:visited, a:link, a:active{
     color: blue;
     text-decoration: none;
-}
-a:hover{
-  background-color: yellow;
-
-}
-
-section > img{
-  width: 25%;
-  margin: 5px;
 }
 
 #board{
   border: solid 1pt;
 }
 
-#title > a > img{
+#title > img{
   float: left;
-  width: 85px;
+  width: 100px;
 }
 #title > h1{
   text-align: left;
   margin-left: 125px;
 }
-#item{
+#hamnav{
+  width: 100%;
+  background: #000; 
+}
+#hamitems{
   display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
-  background-color: white;
-  padding: 5px;
-  
+}
+#hamitems a{
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover{background: #401408;}
+#hamnav label, #hamburger {display: none;}
+@media screen and (max-width: 768px){
+  #hamitems a{
+    box-sizing: border-box;
+    display: box;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+  #hamnav label{
+    display: inline-block;
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  #hamitmes {display: none;}
+  #hamnav input:checked ~ #hamitems{display: block;}
+}
+#hamnav{
+  position: sticky;
+  top: 0;
+}
 }

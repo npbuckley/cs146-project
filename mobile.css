@@ -26,3 +26,8 @@ a{
   font-size: 20px;
   font-family: Verdana;
 }
+
+/*Donations*/
+.group{
+  border-bottom: solid 1px;
+}

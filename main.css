@@ -71,7 +71,14 @@ nav > a:hover{
 
 
 /*Information*/
-
+.images{
+  display: float;
+}
+.images > img{
+  float: center;
+  width: 28%;
+  margin: 5px;
+}
 
 
   

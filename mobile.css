@@ -2,11 +2,11 @@
 body{
   background-color:lightgreen;
   text-align: center;
-  margin: 50px;
+  margin: 20px;
 }
 h1{
   font-family: Verdana;
-  font-size: 50px;
+  font-size: 40px;
   }
 h2, h3, h4{
   font-family:Verdana;
@@ -27,6 +27,15 @@ a{
   font-family: Verdana;
 }
 
+/*Header*/
+#title > a > img{
+  float: left;
+  width: 75px;
+}
+#title > h1{
+  text-align: left;
+}
+
 /*Donations*/
 .group{
   border-bottom: solid 1px;
@@ -40,4 +49,38 @@ a{
   float: center;
   width: 100%;
   margin: 5px;
+}
+
+/*Purchase*/
+#item > img{
+  width: 200px;
+  height: 200px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#item{
+  flex: 40%;
+  background: limegreen;
+  margin: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+#item > h4, #item > p{
+  color: white;
+}
+#item > a{
+  background: white;
+  padding: 5px;
+  border: solid 2px black;
+}
+#item > a:visited, #item > a:link, #item > a:active{
+  color: black;
+  text-decoration: none;
+}
+#item > a:hover{
+  background-color: yellow;
 }

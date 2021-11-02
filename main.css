@@ -137,14 +137,16 @@ nav > a:hover{
 }
 .row{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 #item{
-  flex: 25%;
-  background: darkgreen;
+  flex: 20%;
+  background: limegreen;
   margin: 10px;
   padding-right: 5px;
   padding-left: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 #item > h4, #item > p{
   color: white;
@@ -154,7 +156,10 @@ nav > a:hover{
   padding: 5px;
   border: solid 2px black;
 }
-#item > a:hover, #item > a:visited, #item > a:link, #item > a:active{
+#item > a:visited, #item > a:link, #item > a:active{
   color: black;
   text-decoration: none;
+}
+#item > a:hover{
+  background-color: yellow;
 }

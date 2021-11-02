@@ -1,0 +1,28 @@
+/*General*/
+body{
+  background-color:lightgreen;
+  text-align: center;
+  margin: 50px;
+}
+h1{
+  font-family: Verdana;
+  font-size: 50px;
+  }
+h2, h3, h4{
+  font-family:Verdana;
+  font-size: 30px;
+} 
+li, ol {
+  list-style-position:inside;
+}
+img{
+  border: dotted 4pt darkgreen; 
+}
+p{
+  font-size: 20px;
+  font-family: Monospace; 
+}
+a{
+  font-size: 20px;
+  font-family: Verdana;
+}

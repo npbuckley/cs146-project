@@ -1,95 +1,123 @@
+/*General*/
 body{
-    background-color:lightgreen;
-    text-align: center;
+  background-color:lightgreen;
+  text-align: center;
 }
 h1{
-    font-family: Monospace;
-    font-size: 54px;
+  font-family: Verdana;
+  font-size: 54px;
   }
-  h2{
-    font-family:Verdana;
-    font-size: 36px;
-  }
+h2{
+  font-family:Verdana;
+  font-size: 36px;
+}
   
-  li, ol {
-    list-style-position:inside;
-  }
+li, ol {
+  list-style-position:inside;
+}
+h3{
+  font-size: 36px;
+  font-family: Verdana;
+}
+img{
+  border: dotted 4pt darkgreen; 
+}
+p{
+  font-size: 20px;
+  font-family: Monospace; 
+}
+
+
+/*Header*/
+#title > a > img{
+  float: left;
+  width: 100px;
+}
+#title > h1{
+  text-align: left;
+  margin-left: 125px;
+}
+nav{
+  font-size: 20px;
+  margin: 20px;
+}
+nav > *{
+  margin: 5px;
+  background-color: white;
+  padding: 5px;
+  border: solid 2pt;
+} 
+nav > a:hover, nav > a:visited, nav > a:link, nav > a:active{
+  color: blue;
+  text-decoration: none;
+}
+
+
+
+/*Donations*/
+
+
+
+
+/*Information*/
   
-  p{
-    font-size: 26px;
-    font-family: Monospace; 
-  }
-  h3{
-    font-size: 36px;
-    font-family: Verdana;
-  }
-  img{
-    border: dotted 4pt darkgreen; 
-  }
-  nav{
-    font-size: 20px;
-    margin: 20px;
-  }
-  nav > *{
-    margin: 5px;
-    background-color: white;
-    padding: 5px;
-    border: solid 2pt;
-  }
   
-  a:hover, a:visited, a:link, a:active{
-    color: blue;
-    text-decoration: none;
-  }
+/*Spread The Word*/
+#board{
+  border: solid 1pt;
+}
   
-  #board{
-    border: solid 1pt;
-  }
-  
-  #title > img{
-    float: left;
-    width: 100px;
-  }
-  #title > h1{
-    text-align: left;
-    margin-left: 125px;
-  }
-  #hamnav{
-    width: 100%;
-    background: #000; 
-  }
-  #hamitems{
-    display: flex;
-  }
+/*HamNav*/
+#hamnav{
+  width: 100%;
+  background: #000; 
+}
+#hamitems{
+  display: flex;
+}
+#hamitems a{
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover{background: #0ce20c;}
+#hamnav label, #hamburger {display: none;}
+@media screen and (max-width: 768px){
   #hamitems a{
-    flex-grow: 1;
-    flex-basis: 0;
-    padding: 10px;
+    box-sizing: border-box;
+    display: box;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+  #hamnav label{
+    display: inline-block;
     color: white;
-    text-decoration: none;
-    text-align: center;
+    background: #a02620;
+    font-style: normal;
+    font-size: 10px;
+    padding: 10px;
   }
-  #hamitems a:hover{background: #0ce20c;}
-  #hamnav label, #hamburger {display: none;}
-  @media screen and (max-width: 768px){
-    #hamitems a{
-      box-sizing: border-box;
-      display: box;
-      width: 100%;
-      border-top: 1px solid #333;
-    }
-    #hamnav label{
-      display: inline-block;
-      color: white;
-      background: #a02620;
-      font-style: normal;
-      font-size: 10px;
-      padding: 10px;
-    }
-    #hamitmes {display: none;}
-    #hamnav input:checked ~ #hamitems{display: block;}
-  }
-  #hamnav{
-    position: sticky;
-    top: 0;
-  }
+  #hamitmes {display: none;}
+  #hamnav input:checked ~ #hamitems{display: block;}
+}
+#hamnav{
+  position: sticky;
+  top: 0;
+}
+
+/*Purchase*/
+#item > img{
+  width: 100px;
+  height: 100px;
+}
+.row{
+  display: flex;
+}
+#item{
+  flex: 25%;
+  background: darkgreen;
+  margin: 10px;
+}

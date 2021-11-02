@@ -46,9 +46,12 @@ nav > *{
   padding: 5px;
   border: solid 2pt;
 } 
-nav > a:hover, nav > a:visited, nav > a:link, nav > a:active{
+nav > a:visited, nav > a:link, nav > a:active{
   color: black;
   text-decoration: none;
+}
+nav > a:hover{
+  background: yellow;
 }
 
 

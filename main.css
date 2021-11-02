@@ -21,6 +21,10 @@ p{
   font-size: 20px;
   font-family: Monospace; 
 }
+a{
+  font-size: 20px;
+  font-family: Verdana;
+}
 
 
 /*Header*/
@@ -43,7 +47,7 @@ nav > *{
   border: solid 2pt;
 } 
 nav > a:hover, nav > a:visited, nav > a:link, nav > a:active{
-  color: blue;
+  color: black;
   text-decoration: none;
 }
 
@@ -128,4 +132,8 @@ nav > a:hover, nav > a:visited, nav > a:link, nav > a:active{
   background: white;
   padding: 5px;
   border: solid 2px black;
+}
+#item > a:hover, #item > a:visited, #item > a:link, #item > a:active{
+  color: black;
+  text-decoration: none;
 }

@@ -41,7 +41,7 @@ nav{
   font-size: 20px;
   margin: 20px;
 }
-nav > *{
+nav > ul > li, nav > a{
   margin: 5px;
   background-color: white;
   padding: 5px;

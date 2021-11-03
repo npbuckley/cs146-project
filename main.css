@@ -88,45 +88,22 @@ nav > a:hover{
 }
   
 /*HamNav*/
-#hamnav{
-  width: 100%;
-  background: #000; 
-}
-#hamitems{
-  display: flex;
-}
-#hamitems a{
-  flex-grow: 1;
-  flex-basis: 0;
-  padding: 10px;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-}
-#hamitems a:hover{background: #0ce20c;}
-#hamnav label, #hamburger {display: none;}
-@media screen and (max-width: 768px){
-  #hamitems a{
-    box-sizing: border-box;
-    display: box;
-    width: 100%;
-    border-top: 1px solid #333;
+ @media(max-width: 768px){
+    .mainMenu{
+      display:none;
+    }
+    .mainMenu.hamburger{
+      display: block;
+    }
   }
-  #hamnav label{
-    display: inline-block;
-    color: white;
-    background: #a02620;
-    font-style: normal;
-    font-size: 10px;
-    padding: 10px;
+  @media(min-width: 769px){
+    .mainMenu{
+      display:initial;
+    }
+    #toggle-bar{
+      display:center;
+    }
   }
-  #hamitmes {display: none;}
-  #hamnav input:checked ~ #hamitems{display: block;}
-}
-#hamnav{
-  position: sticky;
-  top: 0;
-}
 
 
 

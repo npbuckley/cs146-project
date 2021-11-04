@@ -26,6 +26,19 @@ a{
   font-size: 20px;
   font-family: Verdana;
 }
+button{
+  background: white;
+  font-family: Verdana;
+  font-size: 20px;
+   border: solid 5px black;
+}
+button:hover{
+  background: yellow;
+}
+input{
+  font-family: Verdana;
+  border: solid 2px black;
+}
 
 /*Header*/
 #title > a > img{
@@ -54,6 +67,15 @@ nav > a:visited, nav > a:link, nav > a:active{
 nav > a:hover{
   background: yellow;
 }
+
+/*Spread The Word*/
+#board{
+  border: solid 3px;
+}
+.box{
+  border-bottom: solid 3px black;
+}
+
 
 
 /*Information*/

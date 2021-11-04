@@ -13,7 +13,7 @@ h2, h3, h4{
   font-size: 30px;
 } 
 li, ol {
-  list-style-position:inside;
+  list-style-position: inside;
 }
 img{
   border: dotted 4pt darkgreen; 
@@ -39,10 +39,11 @@ a{
 }
 nav{
   font-size: 20px;
-  margin: 20px;
+  margin: 0px;
 }
-nav > ul > li, nav > a{
-  margin: 5px;
+nav > a{
+  flex: 1;
+  margin: 2px;
   background-color: white;
   padding: 5px;
   border: solid 2pt;
@@ -68,6 +69,18 @@ nav > a:hover{
   margin-bottom: 20px;
 }
 
+/*Information*/
+.article{
+  border-bottom: solid 1px;
+  padding: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 100px;
+}
+.article > img{
+  float: left;
+  margin-right: 20px;
+
+}
 
 
 /*Home*/

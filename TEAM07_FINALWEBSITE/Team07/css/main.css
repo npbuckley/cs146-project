@@ -127,6 +127,10 @@ nav > a:hover{
   flex-direction: row;
   flex-wrap: wrap;
 }
+figcaption {
+  color: white;
+  font-family: Monospace;
+}
 #item{
   flex: 20%;
   background: limegreen;
@@ -135,7 +139,7 @@ nav > a:hover{
   padding-left: 5px;
   padding-bottom: 20px;
 }
-#item > h4, #item > p, figcaption{
+#item > h4, #item > p {
   color: white;
 }
 #item > a{

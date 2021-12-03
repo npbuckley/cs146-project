@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Eco-Aware</title>
-
-        <link rel="stylesheet" type="text/css" href="../css/mobile.css" media="screen and (max-width:480px)">
-        <link rel="stylesheet" type="text/css" href="../css/tablet.css" media="screen and (min-width:481px) and (max-width:768px)">
-        <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen and (min-width:769px)">
+    <head> 
+        <title>Eco-Aware</title> <link rel="stylesheet" type="text/css" href="../css/mobile.css" media="screen and (max-width:480px)"> <link rel="stylesheet" type="text/css" href="../css/tablet.css" media="screen and (min-width:481px) and (max-width:768px)"> <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen and (min-width:769px)"> 
     </head>
 
     <body>
@@ -34,12 +30,26 @@
             <div id="board">
                 <h3>General Board</h3>
                 <div>
-                    <div class="box">
-                        <p><strong>EarthPerson4000</strong>: I love saving the planet!</p>
-                        <p><strong>TreeCool</strong>: I love saving it too!!!!!!!</p>
-                        <p><strong>GrassIsGreen</strong>: I also enjoy helping the planet.</p>
+                    <p class="box" id = "chat">
+                        
+                        
+                    </p>
+                    <p>
+                    <strong>Your Username</strong>:
+                    <div id = "replaceName">
+                        <input type="text" id="username" name="username">
+                        <button type="button" onclick="PostUsername()" id = "buttonRemove">
+                            Enter
+                        </button>
                     </div>
-                    <p><strong>YourUsername</strong>:<input type="text" id="fname" name="fname"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button">Post</button></p>
+                    </p>
+
+                    <p>
+                    <strong>Your Post</strong>:<input type="text" id="post" name="post">
+                    <button type="button" onclick="Post()">Enter</button>
+                    </p>
+
+
                 </div>
             </div>
         </main>
@@ -49,3 +59,5 @@
         </footer>
     </body>
 </html>
+
+<script src="../js/speadtheword.js"></script>

@@ -1,5 +1,5 @@
 function showGroceryBagsPrice() {
-  var title = document.getElementByTagName(h4);
+  var title = document.getElementByTagName(H4);
   if (title.innerHTML === "Reusable Grocery Bags") {
     title.innerHTML = "Currently $26.99";
   } 

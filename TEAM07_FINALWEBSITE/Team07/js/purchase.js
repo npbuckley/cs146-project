@@ -41,7 +41,7 @@ function toggleWalletPrice() {
 function toggleHandbagPrice() {
   var cap = document.getElementById("caption5");
   if (cap.innerHTML == "Price:") {
-    cap.innerHTML = 'Price: Currently $70.00-$80.00';
+    cap.innerHTML = 'Price: Currently $70.00 - $80.00';
   } 
   else {
     cap.innerHTML = "Price:";
@@ -51,7 +51,7 @@ function toggleHandbagPrice() {
 function togglePhoneCasePrice() {
   var cap = document.getElementById("caption6");
   if (cap.innerHTML == "Price:") {
-    cap.innerHTML = 'Price: Currently $49.95-$54.95';
+    cap.innerHTML = 'Price: Currently $49.95 - $54.95';
   } 
   else {
     cap.innerHTML = "Price:";
@@ -81,7 +81,7 @@ function toggleFlashlightPrice() {
 function toggleCrockeryPrice() {
   var cap = document.getElementById("caption9");
   if (cap.innerHTML == "Price:") {
-    cap.innerHTML = 'Price: Currently $8.06-$364.86';
+    cap.innerHTML = 'Price: Currently $8.06 - $364.86';
   } 
   else {
     cap.innerHTML = "Price:";

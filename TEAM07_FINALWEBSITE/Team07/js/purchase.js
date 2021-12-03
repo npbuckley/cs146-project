@@ -21,7 +21,7 @@ function toggleLanternsPrice() {
 function toggleLightbulbsPrice() {
   var cap = document.getElementById("caption");
   if (cap.innerHTML == "Price:") {
-    cap.innerHTML = 'Price: Currently $12.78';
+    cap.innerHTML = 'Price: Currently $12.78/four lightbulbs';
   } 
   else {
     cap.innerHTML = "Price:";
@@ -81,7 +81,17 @@ function toggleFlashlightPrice() {
 function toggleCrockeryPrice() {
   var cap = document.getElementById("caption");
   if (cap.innerHTML == "Price:") {
-    cap.innerHTML = 'Price: Currently $28.00';
+    cap.innerHTML = 'Price: Currently $8.06-$364.86';
+  } 
+  else {
+    cap.innerHTML = "Price:";
+  }
+}
+
+function toggleGardenPotsPrice() {
+  var cap = document.getElementById("caption");
+  if (cap.innerHTML == "Price:") {
+    cap.innerHTML = 'Price: Currently $4.89/pot';
   } 
   else {
     cap.innerHTML = "Price:";

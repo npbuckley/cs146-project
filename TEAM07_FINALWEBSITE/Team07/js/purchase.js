@@ -1,5 +1,4 @@
-function displayGroceryBagsPrice(){
+function displayGroceryBagsPrice(text){
   var item = document.getElementById("grocerybags");
-  var text = "Currently $26.99";
   item.innerText = text;
 }

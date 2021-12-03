@@ -1,9 +1,9 @@
 function showGroceryBagsPrice() {
   var title = document.getElementById("grocerybags");
-  if (title.innerHTML == "Reusable Grocery Bags (3 Pack)") {
+  if (title.innerHTML == "Show Price) {
     title.innerHTML = "Currently $26.99";
   } 
   else {
-    title.innerHTML = "Reusable Grocery Bags (3 Pack)";
+    title.innerHTML = "Show Price";
   }
 }

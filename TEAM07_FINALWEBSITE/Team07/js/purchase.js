@@ -1,5 +1,5 @@
 function showGroceryBagsPrice() {
-  var title = document.getElementByTagName("figcaption");
+  var title = document.getElementById("caption");
   if (title.innerHTML == "Price:") {
     title.innerHTML = 'Currently $26.99';
   } 

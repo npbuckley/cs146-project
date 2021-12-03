@@ -1,8 +1,15 @@
-wishlist = [1,2,3];
 
-anchors = document.querySelectorAll('[id=nav]');
+console.log(window.location.href);
 
-anchors.forEach(function(a){
+wishlist = []
+if(window.location.href.indexOf('?') >= 0)
+    wishlist = window.location.href.substring(window.location.href.indexOf('?')+1).split(',');
+    wishlist = wishlist.filter(item => item);
+
+
+console.log(wishlist);
+
+document.querySelectorAll('[id=nav]').forEach(function(a){
     a.addEventListener('click', function(event) {
         // Stop the link from redirecting
         event.preventDefault();
@@ -12,18 +19,6 @@ anchors.forEach(function(a){
     }, false);
 });
 
-
-console.log(anchors);
-
-
-
-/*
-$('a').each(function() {
-    var href = $(this).attr('href');
-    if (href) {
-        if
-        $(this).attr('href', url.href);
-    }
-});
-
-*/
+function AddToWishlist(id){
+    wishlist.push(id);
+}

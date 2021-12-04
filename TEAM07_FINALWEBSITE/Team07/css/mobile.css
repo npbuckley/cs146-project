@@ -30,7 +30,9 @@ button{
   background: white;
   font-family: Verdana;
   font-size: 20px;
-   border: solid 5px black;
+  border: solid 2px black;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 button:hover{
   background: yellow;
@@ -112,6 +114,10 @@ nav > a:hover{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+figcaption {
+  color: white;
+  font-family: Monospace;
 }
 #item{
   flex: 40%;

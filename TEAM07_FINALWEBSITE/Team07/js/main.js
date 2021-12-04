@@ -19,6 +19,8 @@ document.querySelectorAll('[id=nav]').forEach(function(a){
     }, false);
 });
 
+
 function AddToWishlist(id){
     wishlist.push(id);
+    wishlist = wishlist.sort();
 }

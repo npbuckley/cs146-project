@@ -71,6 +71,28 @@ nav > a:hover{
   background: yellow;
 }
 
+/*Wishlist*/
+.wishlist-icon{
+  position:fixed;
+  right: 10px;
+  top: 10px;
+  width:75px;
+  z-index:1;
+}
+.wishlist-icon > img{
+  width: 100%;
+  border: none;
+}
+.wishlist-menu{
+  position:fixed;
+  right: 10px;
+  top: 100px;
+  width:400px;
+  height: 400px;
+  z-index:1;
+  background-color: white;
+}
+
 
 
 /*Donations*/

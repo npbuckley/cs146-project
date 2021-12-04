@@ -24,3 +24,7 @@ function AddToWishlist(id){
     wishlist.push(id);
     wishlist = wishlist.sort();
 }
+
+function OpenWishlist(){
+    console.log("working");
+}

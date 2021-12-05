@@ -89,31 +89,39 @@ function OpenWishlist(){
     items = $('.wishlist-items');
     items.html("");
 
-    for(var x = 0; x < wishlist.length; x++){
-        box = document.createElement('div');
-        box.className = 'item-box';
 
-        n = document.createElement("h4");
-        n.className = 'item-wishlist-title';
-        n.textContent = itemNames[wishlist[x]];
+    if(wishlist.length > 0){
+        for(var x = 0; x < wishlist.length; x++){
+            box = document.createElement('div');
+            box.className = 'item-box';
 
-        price = document.createElement('p');
-        price.className = 'item-wishlist-price';
-        price.textContent = itemPrices[wishlist[x]];
+            n = document.createElement("h4");
+            n.className = 'item-wishlist-title';
+            n.textContent = itemNames[wishlist[x]];
 
-        image = document.createElement('img');
-        image.className = 'item-wishlist-images';
-        image.src = itemImages[wishlist[x]];
+            price = document.createElement('p');
+            price.className = 'item-wishlist-price';
+            price.textContent = itemPrices[wishlist[x]];
 
-        remove = document.createElement('button');
-        remove.type = 'button';
-        remove.className = 'item-wishlist-button';
-        remove.textContent = 'Remove';
-        remove.setAttribute("onclick","RemoveItem(" + wishlist[x] +")");
+            image = document.createElement('img');
+            image.className = 'item-wishlist-images';
+            image.src = itemImages[wishlist[x]];
+
+            remove = document.createElement('button');
+            remove.type = 'button';
+            remove.className = 'item-wishlist-button';
+            remove.textContent = 'Remove';
+            remove.setAttribute("onclick","RemoveItem(" + wishlist[x] +")");
 
 
-        box.append(image, n, price, remove);
+            box.append(image, n, price, remove);
 
-        items.append(box);
+            items.append(box);
+        }
+    }
+    else{
+        noItems = document.createElement('h5');
+        noItems.textContent = "You have nothing on your wishlist";
+        items.append(noItems);
     }
 }

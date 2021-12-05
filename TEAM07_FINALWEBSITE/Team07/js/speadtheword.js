@@ -23,6 +23,6 @@ function Post()
     var insertText = getBoard.value;
     
     var board = document.getElementById("chat");
-    var text = (username + ":" + insertText + "<br>");
+    var text = (username + ":" + " " + insertText + "<br>");
     board.innerHTML += text
 }

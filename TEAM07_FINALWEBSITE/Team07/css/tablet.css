@@ -70,6 +70,56 @@ nav > a:hover{
   background: yellow;
 }
 
+/*Wishlist*/
+.wishlist-icon{
+  position:fixed;
+  right: 10px;
+  top: 10px;
+  width:50px;
+  z-index:1;
+}
+.wishlist-icon > img{
+  width: 100%;
+  border: none;
+}
+.wishlist-menu{
+  position:fixed;
+  right: 75px;
+  top: 10px;
+  width:400px;
+  z-index:1;
+  background-color: white;
+}
+.item-box{
+  margin: 10px;
+  border-bottom: 1px solid gray;
+}
+.item-wishlist-title{
+  font-size: 15px;
+  margin-bottom: 35px;
+  margin-top: 0px;
+}
+.item-wishlist-price{
+  margin-top: -25px;
+  margin-left: 80px;
+  font-size: 15px;
+  float: left;
+}
+.item-wishlist-images{
+  height: 50px;
+  float: left;
+  margin-left: 5px;
+  border: none;
+}
+.item-wishlist-button{
+  background-color: white;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  float: right;
+  margin-top: -25px;
+}
+
 /*Spread The Word*/
 #board{
   border: solid 3px;
